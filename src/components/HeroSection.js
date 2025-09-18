@@ -12,12 +12,12 @@ function HeroSection() {
          className="mx-auto mb-8 w-80 h-80 rounded-full object-cover transform
           transition-transform duration-300 hover:scale-110"
         />
-        <h1>
+        <h1 className='text-4xl font-bold'>
             I'm {" "}
             <span>Muhammad Younus</span> 
-            Frontend Developer
+             Frontend Developer
         </h1>
-        <p>
+        <p className="mt-4 text-lg text-gray-300 px-4">
             I create responsive and engaging web applications.
         </p>
         <div>
