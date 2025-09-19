@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-black text-white py-4 px-9 md:px-16 lg:px-20">
+      <div className="navbar bg-black text-white py-4 px-9 md:px-16 lg:px-20 shadow-lg">
         <div className=" container flex justify-center md:justify-between items-center">
           <div className="text-2xl font-bold hidden md:inline">
             Muhammad Younus
