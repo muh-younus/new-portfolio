@@ -96,7 +96,8 @@ function About() {
               >
 
                 <h3
-                className="text-2xl font-bold text-transparent mt-6 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 "
+                className="text-2xl font-bold text-transparent mt-6 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500
+                transform transition-transform duration-300 hover:scale-110 "
                 >
                   4+
                 </h3>
@@ -105,7 +106,8 @@ function About() {
               <div>
 
                 <h3
-                className="text-2xl font-bold text-transparent mt-6 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 "
+                className="text-2xl font-bold text-transparent mt-6 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500
+                transform transtion-transform duration-300 hover:scale-110 "
                 >
                   3+
                 </h3>
@@ -114,7 +116,8 @@ function About() {
               <div>
 
                 <h3
-                className="text-2xl font-bold text-transparent mt-6 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 "
+                className="text-2xl font-bold text-transparent mt-6 bg-clip-text bg-gradient-to-r from-green-400 to-blue-500
+                transform transtion-transform duration-300 hover:scale-110 "
                 >
                   1+
                 </h3>
