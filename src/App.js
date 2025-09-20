@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
 import About from './components/About'
+import Service from'./components/Service'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
   <Navbar/>
   <HeroSection/>
   <About/>
+  <Service/>
   
   </>
   );
