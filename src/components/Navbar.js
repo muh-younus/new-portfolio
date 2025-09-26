@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
-      <div className="navbar bg-black text-white py-4 px-9 md:px-16 lg:px-20 shadow-lg">
+      <div className="navbar bg-black text-white py-4 px-9 md:px-16 lg:px-20 shadow-lg z-10 fixed top-0 left-0 right-0">
         <div className=" container flex justify-center md:justify-between items-center">
           <div className="text-2xl font-bold hidden md:inline">
             Muhammad Younus
@@ -55,7 +55,8 @@ function Navbar() {
              after:w-0 after:h-[2px] after:bg-blue-400 
              after:transition-all after:duration-300 
              hover:after:w-full"
-                  href="#projects">
+                  href="#project"
+                  >
                   Projects
                 </a>
               </li>
@@ -67,7 +68,8 @@ function Navbar() {
              after:w-0 after:h-[2px] after:bg-blue-400 
              after:transition-all after:duration-300 
              hover:after:w-full"
-                  href="#contact">
+                  href="#contact"
+                  >
                   Contact
                 </a>
               </li>

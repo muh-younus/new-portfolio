@@ -44,7 +44,7 @@ const data = [
 function Service() {
   return (
     <>
-    <div className="bg-black text-white py-20" id="about">
+    <div className="bg-black text-white py-20" id="service">
         <div className="container mx-auto px-16 md:px-16 lg:px-24">
           <h1 className="text-4xl font-bold mb-12 text-center">Service</h1>
           <div

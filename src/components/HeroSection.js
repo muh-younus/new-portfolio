@@ -5,7 +5,7 @@ import HeroImage from "../image/white.jpg"
 function HeroSection() {
   return (
     <>
-    <div className="bg-black text-white text-center py-8">
+    <div className="bg-black text-white text-center py-8 mt-16" id="home">
 
         <img
         src={HeroImage} alt="profile"
